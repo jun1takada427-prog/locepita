@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "ロケピタ | 東京23区 飲食店開業支援・補助金・規制 比較ナビ",
@@ -46,6 +47,7 @@ export default function RootLayout({
       </head>
       <body>
         {children}
+        <Footer />
       </body>
     </html>
   );
