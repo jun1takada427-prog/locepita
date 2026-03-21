@@ -604,7 +604,7 @@ export default function LocepitaSim() {
                   initial={{ opacity: 0, y: 3 }} animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0 }} transition={{ duration: 0.22 }}
                   style={{ margin: 0, fontSize: 11, color: "rgba(255,255,255,0.45)", fontWeight: 500 }}>
-                  {ward.area_name}での成功確率を最大化するシミュレーター
+                  数字を、味方にする。夢を、地図に記す。
                 </motion.p>
               </AnimatePresence>
             </div>
