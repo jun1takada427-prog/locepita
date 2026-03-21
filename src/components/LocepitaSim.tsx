@@ -580,8 +580,7 @@ export default function LocepitaSim() {
         input[type=range] { accent-color: ${ward.accent}; }
       `}</style>
       <div style={{ minHeight: "100vh", background: "#f8fafc",
-        fontFamily: "'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif",
-        paddingBottom: 80 }}>
+        fontFamily: "'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif" }}>
 
         {/* ─── ヘッダー ─── */}
         <header style={{ background: INK, position: "relative", overflow: "hidden",
