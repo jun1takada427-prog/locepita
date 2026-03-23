@@ -3,6 +3,7 @@ import "./globals.css";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://locepita.vercel.app'),
   title: "ロケピタ | 東京23区 飲食店開業支援・補助金・規制 比較ナビ",
   description: "数字を、味方にする。夢を、地図に記す。東京23区の飲食店開業支援・補助金・融資条件・保健所規制を一覧比較。エリア選びから初期費用シミュレーションまで、開業前に知っておくべき情報を無料でまとめて確認できます。",
   verification: {
